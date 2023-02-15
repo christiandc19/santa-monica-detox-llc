@@ -7,21 +7,21 @@
   margin: 5rem 0 0 0;
 }
 
-.box {
-    height: auto;
+
+.right {
     width: 600px;
-    display: inline-block;
-    margin: 1rem;
+    padding: 1rem;
 }
 
-.box-right {
-    width: 550px;
+.right img {
+    width: 100%;
+    height: 100%;
+    border-radius: 1rem;
 }
 
-.wrap .header {
-    text-align: left;
-    font-size: 15px;
-    font-family: 'Montserrat', sans-serif;
+.left {
+    width: 600px;
+    padding: 1rem;
 }
 
 .wrap .header2 {
@@ -37,10 +37,6 @@
     font-family: 'Montserrat', sans-serif;
 }
 
-.box-right img {
-    border-radius: 15px;
-}
-
 .wrap p, .wrap ul li {
     font-size: 15px;
     font-family: 'Montserrat', sans-serif;
@@ -52,7 +48,8 @@
 }
 
 .Whoweare-icon {
-    width: 600px;
+    width: 570px;
+    /* padding: 1rem; */
 }
 
 .icons {
@@ -70,6 +67,7 @@
 .icons p {
     width: 500px;
     margin-left: 1rem;
+    text-align: left;
 }
 
 
@@ -92,17 +90,15 @@
         width: 100%;
     }
 
-    .left h1 {
-        font-size: 2rem;
+    .wrap .left h1{
+        font-size: 14px;
     }
 
-    .left button {
-    margin: 1rem auto;
+    .wrap .left .header2 span{
+        font-size: 22px;
     }
 
-    .box-right-img img {
-    display: none;
-    }
+
 
 }
 
