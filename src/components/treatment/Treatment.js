@@ -5,6 +5,7 @@ import './Treatment.css'
 import Wave from '../../assets/waves.svg'
 
 
+
 const Treatment = () => {
     return (
         <>
@@ -13,13 +14,13 @@ const Treatment = () => {
             <div className='hero-divider'>
                 <img src={Wave} loading="lazy" alt='wave divider' repeat-x/>
             </div>
-                    <div className="treatment-content">
-                        <Fade right>
-                            <h1>TREATMENT</h1>
-                        </Fade>
-                        
-                    </div>
-                </div>
+            <div className="treatment-content">
+                <Fade right>
+                    <h1>TREATMENT</h1>
+                </Fade>
+            </div>
+        </div>
+
         </>
     )
 }

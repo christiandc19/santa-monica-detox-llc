@@ -1,20 +1,9 @@
 import React from 'react'
+import Fade from 'react-reveal/Fade';
 
 import TreatmentImage1 from '../../assets/treatment-1.jpg'
 import TreatmentImage2 from '../../assets/treatment-2.jpg'
-
 import { FaRegStar } from 'react-icons/fa';
-import { RiMovieFill } from 'react-icons/ri';
-import { GiBowlingStrike } from 'react-icons/gi';
-import { FaUmbrellaBeach } from 'react-icons/fa';
-import { FaGolfBall } from 'react-icons/fa';
-import { IoIosBonfire } from 'react-icons/io';
-import { GiSparkles } from 'react-icons/gi';
-import { MdSportsSoccer } from 'react-icons/md';
-import { FaHiking } from 'react-icons/fa';
-import { MdPool } from 'react-icons/md';
-import { MdVolunteerActivism } from 'react-icons/md';
-
 
 import './TreatmentSection.css'
 
@@ -22,132 +11,102 @@ import './TreatmentSection.css'
 const TreatmentSection = () => {
   return (
     <>
-      
-      <div className='container treatment-section-overview'>
-      <h1>OVERVIEW</h1><br/>
-      <p>All treatment clients will have a recovery/treatment plan developed within 30 days of admission. Measurement and re-assessment of treatment plan progress happen on a weekly basis through the weekly summary. In the weekly summary, the drug and alcohol counselor will ensure that action steps to be taken by client or counselor are on target and that the action step achievements will enable resolution of the objective. All treatment plans are reviewed by and signed off on by the clinical director. </p>
-      </div>
+    <div className='container'>
+    <h1 className='treatment-section-header'>INPATIENT PROGRAMS</h1>
+    </div>
+    
 
 
-    <div className='treatment-section-tile'>
-        <div className='tile-description'>
-            <p>The treatment plan will be developed between client and counselor from key information gleaned from the assessment and intake process. This treatment plan will be goal and action oriented with objective and measurable criteria. Each treatment plan will have a statement of problem(s) with which the client identifies, statement of objectives to be reached that addressees each problem, action steps for client and counselor to ensure that objective will be completed.
-            <br/><br/>
-            Counselor and client will work together to compose a treatment plan with clear objectives and goals based on key areas intake assessment. It will include: challenges that the client may encounter during recovery process, clear methods of navigating obstacles in recovery, action steps to be taken by the program and/or client to overcome the challenges of recovery.
-            </p>
-        </div>
+{/* WRAP 1 */}
+    <div className='ts-wrap'>
+        <Fade left>
+            <div className="ts-left">
+                    <p>
+                    <h1 className='ts-header2'>DETOX</h1><br/>
+                                   <ul>
+                    <li> <FaRegStar className='star'/> As the first step before the official treatment phase, our detox program offers immediate and intense support to get clean and stay clean</li>
+                    <li> <FaRegStar className='star'/> All services, monitoring, and amenities provided for the entirety of your stay: medication, followed by monitored detox care and group sessions. 
+                    </li>
+                    </ul><br/>
+                    <h1 className='ts-header2'>RESIDENTIAL</h1><br/>
+                    <ul>
+                    <li> <FaRegStar className='star'/> Looking for additional structure during detox? Step into a closely monitored healing environment and stay as long as you need.</li>
+                    <li> <FaRegStar className='star'/> 24 hour supervision as needed from our staff. </li>
+                    <li> <FaRegStar className='star'/> Can be the best approach if you are prone to relapse, or your normal life involves the presence of substances that could hinder a successful ongoing recovery.</li>
+                    </ul>
+                <br/>
+                <h1 className='ts-header2'>PARTIAL HOSPITALIZATION PROGRAM</h1><br/>
 
-        <div className='tile-image'>
-            <img src={TreatmentImage1} alt="Rehab Team" loading="lazy" />
-        </div>
+                    <ul>
+                    <li> <FaRegStar className='star'/> The step between full-time inpatient and outpatient, our Partial Hospitalization Program (or ‘day rehab’) helps you transition smoothly back into your normal life at your pace.</li>
+                    <li> <FaRegStar className='star'/> Take part in treatment and therapy during the day and spend your nights in the comfort of your own home.
+                    </li>
+                    </ul>
+                
+                </p>
+                <br />
+            </div>
+        </Fade>
+
+        <Fade right>
+            <div className="ts-right">
+                <img src={TreatmentImage1} alt="Conselling Session with a patient" loading="lazy" />
+            </div>
+        </Fade>
     </div>
 
 
-    <div className='treatment-section-tile'>
-        <div className='tile-image'>
-            <img src={TreatmentImage2} alt="Rehab Team" loading="lazy" />
-        </div>
-        
-        <div className='tile-description'>
-            <p>
-            Some areas to be examined may be personal relationships, work, anger management, lack of power, financial burdens, separation from children, past trauma as it relates to present, school, etc.
-            <ul> <br/>
-                <li>
-                <FaRegStar className='star'/> Counselor and client will set clear and tangible goals regarding above mentioned obstacles.
-                </li><br/>
-                <li>
-                <FaRegStar className='star'/> Counselor and client will brainstorm potential hurdles as client attempts to accomplish goals.
-                </li><br/>
-                <li>
-                <FaRegStar className='star'/> Counselor and client discuss systems for working through hurdles. Counselor and client will — upon following weekly session — discuss successes and setbacks for set goals.
-                </li>
-            </ul>
-            </p>
-        </div>
+    <div className='container'>
+    <h1 className='treatment-section-header'>OUTPATIENT PROGRAMS</h1>
     </div>
 
 
-    <div className='container treatment-section-activities'>
-        <h1>RECREATIONS</h1>
-        <p>
-        As mentioned above, the weekly summary reflective of the session between client and counselor/therapist will measure each treatment plan goal on a weekly basis. The client will also initial the weekly summary as this is a review of the treatment plan goals and objectives. Furthermore, clients may have new issues come up during treatment that were not identified at the time of assessment. Drug and alcohol counselors/therapists will develop new treatment plan goals as needed using this protocol whenever necessary.
-        </p>
+
+{/* WRAP 2 */}
+    <div className='ts-wrap'>
+    <Fade right>
+            <div className="ts-right">
+                <img src={TreatmentImage2} alt="Conselling Session with a patient" loading="lazy" />
+            </div>
+        </Fade>
+        <Fade left>
+            <div className="ts-left">
+                <br/>
+                    <p>
+                    <h1 className='ts-header2'>PHP (Mental Health and Addiction)</h1><br/>
+                    <ul>
+                    <li> <FaRegStar className='star'/> A more intense, comprehensive treatment approach than IOP, available every day of the week.</li>
+                    <li> <FaRegStar className='star'/> For those with families and responsibilities at home who seek ongoing treatment.
+                    </li>
+                    <li> <FaRegStar className='star'/> Spend your days in recovery with our team your nights at home.
+                    </li>
+                    <li> <FaRegStar className='star'/> One-on-one support available as needed.
+                    </li>
+                    </ul><br/>
+                    <h1 className='ts-header2'>IOP (Mental Health and Addiction)</h1><br/>
+                    <ul>
+                    <li> <FaRegStar className='star'/> Several hours of group therapy each day along with continued, personalized support and careful monitoring by our in-house physicians.</li>
+                    <li> <FaRegStar className='star'/> Take part in our unique jobs program. We equip you with all the tools you need to succeed in finding the right job.
+                    </li>
+                    </ul><br/>
+                    <h1 className='ts-header2'>OP (Mental Health and Addiction)</h1><br/>
+                    <ul>
+                    <li> <FaRegStar className='star'/> Get continued support as needed with our outpatient programs.</li>
+                    <li> <FaRegStar className='star'/> Attend weekly group and counseling as you move back to your normal life.
+                    </li>
+                    </ul><br/>
+
+                    </p>
+                <br />
+            </div>
+        </Fade>
     </div>
 
 
-    <div className='container activity-box-main'>
 
-        <div className='activity-box'>
-            <div className='activity-icon'>
-                <p><span> <RiMovieFill /></span></p>
-                <p>MOVIES</p>
-            </div>
-        </div>
 
-        <div className='activity-box'>
-            <div className='activity-icon'>
-                <p><span> <GiBowlingStrike /></span></p>
-                <p>BOWLING</p>
-            </div>
-        </div>
 
-        <div className='activity-box'>
-            <div className='activity-icon'>
-                <p><span> <FaUmbrellaBeach /></span></p>
-                <p>BEACH LAKE</p>
-            </div>
-        </div>
 
-        <div className='activity-box'>
-            <div className='activity-icon'>
-                <p><span> <FaGolfBall /></span></p>
-                <p>MINIATURE GOLF</p>
-            </div>
-        </div>
-
-        <div className='activity-box'>
-            <div className='activity-icon'>
-                <p><span> <IoIosBonfire /></span></p>
-                <p>BONFIRE</p>
-            </div>
-        </div>
-
-        <div className='activity-box'>
-            <div className='activity-icon'>
-                <p><span> <GiSparkles /></span></p>
-                <p>THEME PARKS</p>
-            </div>
-        </div>
-
-        <div className='activity-box'>
-            <div className='activity-icon'>
-                <p><span> <MdSportsSoccer /></span></p>
-                <p>SPORTING EVENTS</p>
-            </div>
-        </div>
-
-        <div className='activity-box'>
-            <div className='activity-icon'>
-                <p><span> <FaHiking /></span></p>
-                <p>HIKING</p>
-            </div>
-        </div>
-
-        <div className='activity-box'>
-            <div className='activity-icon'>
-                <p><span> <MdPool /></span></p>
-                <p>POOL</p>
-            </div>
-        </div>
-
-        <div className='activity-box'>
-            <div className='activity-icon'>
-                <p><span> <MdVolunteerActivism /></span></p>
-                <p>FUND RAISERS</p>
-            </div>
-        </div>
-
-    </div>
 
 
     </>

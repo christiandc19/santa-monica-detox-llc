@@ -7,7 +7,7 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    background: rgba(21, 3, 27, 0.521);
+    background: rgba(42, 14, 73, 0.486);
   }
   
   .treatment:before {
@@ -26,11 +26,12 @@
     padding: 1rem;
 }
 
-.treatment-content h1 {
-    font-size: 4rem;
-    font-family: 'Montserrat', sans-serif;
+.treatment h1 {
     color: white;
+    font-size: 4rem;
 }
+
+
 
 /* MEDIA QUERIES - HERO */
 
@@ -41,4 +42,22 @@
     text-align: center;
 }
 
+.treatment-title h1 {
+    font-size: 1.5rem;
 }
+
+}
+
+@media screen and (max-width:940px) {
+
+    .treatment .treatment-content {
+        width: 100%;
+        padding: 25px;
+    }
+
+    .treatment p {
+        font-size: 14px;
+    }
+
+}
+
