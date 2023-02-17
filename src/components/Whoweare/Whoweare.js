@@ -10,6 +10,7 @@ import Icon1 from '../../assets/icon1.png'
 import Icon2 from '../../assets/icon2.png'
 import Icon3 from '../../assets/icon3.png'
 
+import Cards from '../servicesCards/Cards';
 
 
 
@@ -47,6 +48,7 @@ const Whoweare = () => {
     </div>
 
 
+    <Cards />
 
 
     <div className='wrap'>
