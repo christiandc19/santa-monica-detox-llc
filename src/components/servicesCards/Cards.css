@@ -7,7 +7,8 @@
   flex-wrap: wrap;
   justify-content: center;
   align-items:space-around;
-
+  background-color: #E4E2E2;
+  padding: 0 0 5rem 0;
 }
 
 .tile
@@ -112,8 +113,9 @@ box-shadow: 0px 35px 77px -17px rgba(0,0,0,0.64);
 
 .cards-header {
     width: auto;
-    padding: 20px;
+    padding: 2rem 0;
     text-align: center;
+    z-index: 888;
 }
 
 .cards-header h1 {
@@ -123,6 +125,24 @@ box-shadow: 0px 35px 77px -17px rgba(0,0,0,0.64);
 
 .cards-header p {
   font-family: 'Montserrat', sans-serif;
+}
+
+.wrap-divider-top {
+  position: absolute;
+  top: 5;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  transform: rotate(180deg);
+}
+
+.wrap-divider-top img {
+  width: 100%;
+}
+
+@media screen and (max-width: 940px) {
+
 }
 
   @media (max-width: 940px) {
