@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/santa-monica-detox-llc/static/css/main.810ff773.css",
-    "main.js": "/santa-monica-detox-llc/static/js/main.79b57cd9.js",
+    "main.css": "/santa-monica-detox-llc/static/css/main.bc77e1f2.css",
+    "main.js": "/santa-monica-detox-llc/static/js/main.6857cf01.js",
     "static/media/slider2.jpg": "/santa-monica-detox-llc/static/media/slider2.998d1b0ba1a4449d2aa8.jpg",
     "static/media/home1.png": "/santa-monica-detox-llc/static/media/home1.36fcbba2b792f74810e0.png",
     "static/media/hero-bg.jpg": "/santa-monica-detox-llc/static/media/hero-bg.5a285463bf6a2bffd476.jpg",
@@ -57,12 +57,13 @@
     "static/media/aetna.png": "/santa-monica-detox-llc/static/media/aetna.ba1c7baa5f90d207ae2b.png",
     "static/media/bluecross.png": "/santa-monica-detox-llc/static/media/bluecross.2f180be7d5ab799101c3.png",
     "index.html": "/santa-monica-detox-llc/index.html",
+    "static/media/wave2.svg": "/santa-monica-detox-llc/static/media/wave2.4ae987f3d360a0143503ff66c1aadbe8.svg",
     "static/media/waves.svg": "/santa-monica-detox-llc/static/media/waves.e42ddec972c9ec214abc0ac6e8439ee4.svg",
-    "main.810ff773.css.map": "/santa-monica-detox-llc/static/css/main.810ff773.css.map",
-    "main.79b57cd9.js.map": "/santa-monica-detox-llc/static/js/main.79b57cd9.js.map"
+    "main.bc77e1f2.css.map": "/santa-monica-detox-llc/static/css/main.bc77e1f2.css.map",
+    "main.6857cf01.js.map": "/santa-monica-detox-llc/static/js/main.6857cf01.js.map"
   },
   "entrypoints": [
-    "static/css/main.810ff773.css",
-    "static/js/main.79b57cd9.js"
+    "static/css/main.bc77e1f2.css",
+    "static/js/main.6857cf01.js"
   ]
 }
