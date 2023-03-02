@@ -6,8 +6,6 @@ import { Link as LinkRoll } from 'react-scroll'
 
 import Fade from 'react-reveal/Fade';
 
-import Wave2 from '../../assets/wave2.svg'
-
 
 import Card1 from '../../assets/card2-1.jpg'
 import Card2 from '../../assets/card2-2.jpg'
@@ -31,10 +29,6 @@ const Cards = () => {
         </div>
 
 <div class="card-wrap">
-  <div class="wrap-divider-top">
-    <img src={Wave2} loading="lazy" repeat-x alt='wave divider'/>
-  </div>
-
 <div class="tile"> 
   <Fade left>
   <img src={Card1} alt="Mental Health" loading="lazy"/>
@@ -91,7 +85,6 @@ const Cards = () => {
   </div>
  </div>
 </div>
-
 
 
 

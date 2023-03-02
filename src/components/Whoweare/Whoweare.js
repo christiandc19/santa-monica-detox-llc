@@ -7,8 +7,8 @@ import { FaRegStar } from 'react-icons/fa';
 import Whoweare1 from '../../assets/slider1.jpg'
 import Whoweare2 from '../../assets/slider2.jpg'
 import Whoweare3 from '../../assets/slider3.jpg'
+import Whoweare4 from '../../assets/slider4.png'
 
-import WhatWeDoImg3 from '../../assets/whatwedo2.jpg'
 
 import Icon1 from '../../assets/icon1.png'
 import Icon2 from '../../assets/icon2.png'
@@ -23,7 +23,7 @@ const Whoweare = () => {
 
 {/* WRAP 1 */}
 
-    <div className='wrap'>
+    <div className='wrap1'>
         <Fade left>
             <div className="left">
                 <h1 className='header'>WHO WE ARE</h1><br/>
@@ -45,7 +45,7 @@ const Whoweare = () => {
 
 {/* WRAP 2 */}
 
-<div className='wrap'>
+<div className='wrap2'>
 
         <Fade right>
             <div className="right">
@@ -80,30 +80,13 @@ const Whoweare = () => {
 
 <Cards />
 
-{/* WRAP 3 */}
-<div className='wrap reverse-wrap'>
-        <Fade right>
-            <div className="right">
-                <img src={WhatWeDoImg3} alt="Conselling Session with a patient" loading="lazy" />
-            </div>
-        </Fade>
 
-        <Fade left>
-            <div className="left left2">
-                <div>
-                <h1 className='header'>THE BEST OUTPATIENT TREATMENT CENTER IN LOS ANGELES CALIFORNIA</h1><br/>
-                <p>You may have lost your way but here you won’t get lost in the crowd. 23rd Street Recovery is an inviting, home-like environment where compassionate clinicians and staff members work collaboratively with you to address your unique needs. Rooted in the 12-step philosophy and a trauma-informed, evidence-based approach, we’ll show you how to manage and live with addiction, co-occurring disorders and other underlying issues, like anxiety or depression. Surrounded by a supportive recovery community, you’ll heal internally and, in turn, heal your relationships. Find your footing here and get ready for the next phase of your life.</p>
-                </div>
-                <br />
-            </div>
-        </Fade>
-    </div>
 
 
 
 
 {/* WRAP 4 */}
-<div className='wrap'>
+<div className='wrap4'>
         <Fade left>
         
         <div className='left'>
@@ -134,10 +117,39 @@ const Whoweare = () => {
 
         <Fade right>
             <div className="right">
-                <img src={Whoweare3} alt="Conselling Session with a patient" loading="lazy" />
+            <img src={Whoweare4} alt="Conselling Session with a patient" loading="lazy" />
             </div>
         </Fade>
     </div>
+
+
+
+
+
+
+
+
+{/* WRAP 3 */}
+
+<div className='wrap3'>
+        <Fade right>
+            <div className="right">
+                <img src={Whoweare3} alt="Conselling Session with a patient" loading="lazy" />
+            </div>
+        </Fade>
+
+        <Fade left>
+            <div className="left">
+                <div>
+                <h1 className='header'>THE BEST OUTPATIENT TREATMENT CENTER IN LOS ANGELES CALIFORNIA</h1><br/>
+                <p>You may have lost your way but here you won’t get lost in the crowd. 23rd Street Recovery is an inviting, home-like environment where compassionate clinicians and staff members work collaboratively with you to address your unique needs. Rooted in the 12-step philosophy and a trauma-informed, evidence-based approach, we’ll show you how to manage and live with addiction, co-occurring disorders and other underlying issues, like anxiety or depression. Surrounded by a supportive recovery community, you’ll heal internally and, in turn, heal your relationships. Find your footing here and get ready for the next phase of your life.</p>
+                </div>
+                <br />
+            </div>
+        </Fade>
+    </div>
+
+
 
 
 </>
