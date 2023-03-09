@@ -1,11 +1,11 @@
 {
   "files": {
-    "main.css": "/santa-monica-detox-llc/static/css/main.7dd7f2c2.css",
-    "main.js": "/santa-monica-detox-llc/static/js/main.0df975ee.js",
+    "main.css": "/santa-monica-detox-llc/static/css/main.64c479c8.css",
+    "main.js": "/santa-monica-detox-llc/static/js/main.480dabf8.js",
     "static/media/slider4.png": "/santa-monica-detox-llc/static/media/slider4.358cbfa08542af938c7a.png",
+    "static/media/hero-bg-2.png": "/santa-monica-detox-llc/static/media/hero-bg-2.1aac6b1af8249835d36f.png",
     "static/media/slider2.jpg": "/santa-monica-detox-llc/static/media/slider2.8c87272483be9bca6f11.jpg",
     "static/media/home1.png": "/santa-monica-detox-llc/static/media/home1.36fcbba2b792f74810e0.png",
-    "static/media/hero-bg.jpg": "/santa-monica-detox-llc/static/media/hero-bg.5a285463bf6a2bffd476.jpg",
     "static/media/footer-bg.jpg": "/santa-monica-detox-llc/static/media/footer-bg.36d62c855374b14b5cef.jpg",
     "static/media/home2.png": "/santa-monica-detox-llc/static/media/home2.c887b4fad9b85f2dcae7.png",
     "static/media/home5.png": "/santa-monica-detox-llc/static/media/home5.332add0d7c324fdad002.png",
@@ -23,6 +23,7 @@
     "static/media/slider3.jpg": "/santa-monica-detox-llc/static/media/slider3.4fe6539a89a4f97a5d42.jpg",
     "static/media/slider1.jpg": "/santa-monica-detox-llc/static/media/slider1.43a50b6e8a150f1dce10.jpg",
     "static/media/employment-assistance.jpg": "/santa-monica-detox-llc/static/media/employment-assistance.901043c1cb7000c857c3.jpg",
+    "static/media/hero-bg-3.jpg": "/santa-monica-detox-llc/static/media/hero-bg-3.cb66af2a885ea553806a.jpg",
     "static/media/addiction-submenu-bg.jpg": "/santa-monica-detox-llc/static/media/addiction-submenu-bg.03932f5698f86583efc1.jpg",
     "static/media/menu-bg-about.jpg": "/santa-monica-detox-llc/static/media/menu-bg-about.3ce1099a8cc09b6d0f3f.jpg",
     "static/media/treatment-2.jpg": "/santa-monica-detox-llc/static/media/treatment-2.6125ee1c93e30c1b25e6.jpg",
@@ -58,11 +59,11 @@
     "static/media/bluecross.png": "/santa-monica-detox-llc/static/media/bluecross.2f180be7d5ab799101c3.png",
     "index.html": "/santa-monica-detox-llc/index.html",
     "static/media/waves.svg": "/santa-monica-detox-llc/static/media/waves.e42ddec972c9ec214abc0ac6e8439ee4.svg",
-    "main.7dd7f2c2.css.map": "/santa-monica-detox-llc/static/css/main.7dd7f2c2.css.map",
-    "main.0df975ee.js.map": "/santa-monica-detox-llc/static/js/main.0df975ee.js.map"
+    "main.64c479c8.css.map": "/santa-monica-detox-llc/static/css/main.64c479c8.css.map",
+    "main.480dabf8.js.map": "/santa-monica-detox-llc/static/js/main.480dabf8.js.map"
   },
   "entrypoints": [
-    "static/css/main.7dd7f2c2.css",
-    "static/js/main.0df975ee.js"
+    "static/css/main.64c479c8.css",
+    "static/js/main.480dabf8.js"
   ]
 }
