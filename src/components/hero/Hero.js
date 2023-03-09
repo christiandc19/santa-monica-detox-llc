@@ -1,5 +1,4 @@
 import React from 'react'
-import { Link } from 'react-router-dom';
 import Fade from 'react-reveal/Fade';
 import './Hero.css'
 
@@ -18,22 +17,22 @@ const Hero = () => {
 
             <div className="hero-container">
                 <div className="content">
+
+                    <Fade right>
+                        <h2 className='subtitle'>Substance Abuse Addiction and Mental Health Treatment Facility</h2>
+                    </Fade>
+
                     <Fade right>
                         <h1>SANTA MONICA DETOX</h1>
                     </Fade>
-                    <Fade left>
-                        <h2 className='subtitle'>Substance Abuse Addiction and Mental Health Treatment Facility</h2>
-                    </Fade>
-                        <br />
-                        <div className='hero-btn'>
-                        <Link to="/contact">
-                        <button>Get an Appointment</button>
-                    </Link>
-                    </div>
-                    <br />
+
+            
                     <Fade bottom>
-                        <p>Walk the road of recovery with us</p>
+                        <p><i>"Walk the road of recovery with us"</i></p>
                     </Fade>
+
+
+
                 </div>
             </div>
         </div>

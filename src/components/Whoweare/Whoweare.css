@@ -55,7 +55,7 @@
 .wrap2 {
     display: flex;
     flex-wrap: wrap-reverse;
-    background-color: #aecbeb;
+    background: url('../../assets/hero-bg-3.jpg') no-repeat center center/cover;
     justify-content: space-evenly;
     margin: 1rem 0 0 0;
     padding: 5rem 0;
@@ -76,7 +76,16 @@
 
   .wrap2 .right img {
     width: 100%;
+  }
+
+.wrap2 h1 {
+    color: white;
 }
+
+  .wrap2 p {
+    color: rgb(7, 73, 7);
+  }
+
 
 /* WRAP 3 */
 
@@ -115,7 +124,7 @@
 .wrap4 {
     display: flex;
     flex-wrap: wrap;
-    background-color: #aecbeb;
+    background: url('../../assets/hero-bg-3.jpg') no-repeat center center/cover;
     justify-content: space-evenly;
     margin: 1rem 0 0 0;
     padding: 5rem 0;
